@@ -1,4 +1,5 @@
 describe 'Book' do
+  
   describe '.new' do
     it 'gets initialized with a title' do
       expect { Book.new("And Then There Were None") }.not_to raise_error
